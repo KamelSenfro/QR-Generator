@@ -44,3 +44,6 @@ def qr_code_api():
 # run the Flask app on port 5000
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
+#curl "http://localhost:5000/generate_qr_code?url=https://www.example.com"
+    
